@@ -1,0 +1,139 @@
+.width-100 {
+  width: 100%;
+}
+.z-30 {
+  z-index: 30;
+}
+
+.bg-gray-500 {
+  background-color: #262626;
+  background-color: rgba(38, 38, 38, 1);
+}
+
+.easy-footer-container {
+  max-width: 1440px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  background-color: rgba(38, 38, 38, 1);
+}
+
+.easy-footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.easy-footer-content-stay {
+  margin-top: 0;
+  width: 33.333333%;
+}
+
+.easy-footer-content-stay-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.easy-footer-content-stay-header {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-bottom: 0.75rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.easy-footer-content-stay-icon-groupe {
+  text-decoration: inherit;
+  display: block;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(168, 168, 168, 1);
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.easy-footer-content-stay-icon-groupe:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.easy-footer-content-stay-icon-container {
+  text-align: center;
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  display: inline-block;
+  position: relative;
+  height: 1em;
+  vertical-align: -0.3em;
+  width: 1.5em;
+}
+
+.easy-footer-svg-container {
+  display: inline-block;
+  height: 1em;
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.225em;
+  overflow: visible;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center center;
+  background: transparent;
+  color: transparent;
+}
+
+.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  overflow: visible;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  vertical-align: -0.125em;
+}
+
+.easy-footer-content-payment {
+  margin-top: 0;
+  width: 66.666667%;
+}
+
+.easy-footer-content-payment-container {
+  margin-bottom: 2.5rem;
+}
+
+.easy-footer-content-payment-header {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+}
+
+.easy-footer-content-payments {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgba(168, 168, 168, 1);
+  justify-content: flex-start;
+}
+
+.svg-inline--fa-payments {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -0.125em;
+  font-size: 2em;
+  margin-right: 0.5rem;
+  overflow: visible;
+}

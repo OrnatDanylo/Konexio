@@ -7,7 +7,7 @@ function StartNow() {
       <div className="start-now-container-background"></div>{" "}
       <div className="start-now-content-container">
         <h2 className="start-now-content-header">
-          Make your like easyer immediately.
+          Make your life easier immediately.
         </h2>{" "}
         <p className="start-now-content-text">
           Whether it is. We have made setting up a server extremely easy for

@@ -211,7 +211,7 @@
   animation: move-to-bottom 56s linear infinite;
   background-image: url(../../../public/img/binary-matrix.png);
   background-repeat: repeat;
-  background-size: 640px auto;
+  background-size: 740px auto;
   filter: var(--tw-filter);
   height: 100%;
   left: 0;
@@ -229,6 +229,29 @@
   --tw-gradient-to: #101010;
   background-image: linear-gradient(180deg, #101010, transparent, #101010);
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.start-now-container-background::before {
+  --tw-gradient-from: #101010;
+  --tw-gradient-stops: var(--tw-gradient-from),
+    var(--tw-gradient-to, hsla(0, 0%, 6%, 0));
+  --tw-gradient-stops: var(--tw-gradient-from), transparent,
+    var(--tw-gradient-to, transparent);
+  --tw-gradient-to: #101010;
+  background-image: linear-gradient(
+    90deg,
+    transparent,
+    #1010105e,
+    #101010,
+    #1010105e,
+    transparent
+  );
   content: "";
   height: 100%;
   left: 0;
