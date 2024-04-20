@@ -1,4 +1,12 @@
+*,
+:after,
+:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+
 .app {
   background-color: rgba(16, 16, 16, 1);
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }

@@ -3,9 +3,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "components/Navbar/Navbar";
 import LoginPage from "pages/LogInPage/LogIn";
+import Home from "pages/HomePage/Home";
 
 function App() {
-  const Home = () => {
+  const Home1 = () => {
     return (
       <div style={{ backgroundColor: "#E0E0E0" }}>
         <h2>Home Page</h2>
@@ -24,7 +25,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/auth" element={<LoginPage />} />
         </Routes>

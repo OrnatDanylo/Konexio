@@ -81,6 +81,15 @@ function Navbar() {
                 LOG IN
               </Link>
             )}
+            {location.pathname === "/auth" && (
+              <Link
+                to="/"
+                className="nav-link"
+                style={{ paddingRight: "10px" }}
+              >
+                BACK
+              </Link>
+            )}
           </div>
         </nav>
       </div>

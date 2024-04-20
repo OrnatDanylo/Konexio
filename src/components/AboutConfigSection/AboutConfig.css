@@ -1,0 +1,166 @@
+.about-config-section {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+
+  max-width: 1440px;
+
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.about-config-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-config-animation-container {
+  z-index: 20;
+  margin-top: 0;
+  width: 50%;
+}
+
+.about-config-text-container {
+  z-index: 20;
+  color: rgba(168, 168, 168, 1);
+  text-align: left;
+  width: 50%;
+}
+
+.about-config-text-header {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  font-family: Titillium Web, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  text-align: left;
+  border: 0 solid;
+  box-sizing: border-box;
+  border-color: rgba(92, 92, 92, 1);
+  margin: 0;
+  font-weight: inherit;
+  margin-bottom: 1rem;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 1);
+  font-size: 2.875rem;
+}
+
+.about-config-text-about {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  line-height: inherit;
+  font-family: Titillium Web, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  color: rgba(168, 168, 168, 1);
+  text-align: left;
+  border: 0 solid;
+  box-sizing: border-box;
+  border-color: rgba(92, 92, 92, 1);
+  margin: 0;
+  margin-bottom: 0.75rem;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.about-config-text-links {
+  tab-size: 4;
+  line-height: inherit;
+  font-family: Titillium Web, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  color: rgba(168, 168, 168, 1);
+  text-align: left;
+  border: 0 solid;
+  box-sizing: border-box;
+  border-color: rgba(92, 92, 92, 1);
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+
+.text-yellow {
+  tab-size: 4;
+  line-height: inherit;
+  font-family: Titillium Web, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  text-align: left;
+  font-weight: 300;
+  font-size: 1.125rem;
+  border: 0 solid;
+  box-sizing: border-box;
+  border-color: rgba(92, 92, 92, 1);
+  text-decoration: inherit;
+  color: rgba(255, 215, 68, 1);
+}
+
+.about-config-animation-box {
+  height: 18rem;
+  position: relative;
+}
+
+.rig {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+  line-height: inherit;
+  font-family: Titillium Web, -apple-system, system-ui, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Arial;
+  --tw-bg-opacity: 1;
+  border: 0 solid;
+  box-sizing: border-box;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-transform: translateX(var(--tw-translate-x))
+    translateY(var(--tw-translate-y)) rotate(var(--tw-rotate))
+    skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
+    scaleY(var(--tw-scale-y));
+  --tw-border-opacity: 1;
+  --tw-ring-inset: var(--tw-empty, /*!*/ /*!*/);
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgba(59, 130, 246, 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-drop-shadow: var(--tw-empty, /*!*/ /*!*/);
+  --tw-filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast)
+    var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate)
+    var(--tw-sepia) var(--tw-drop-shadow);
+  --tw-backdrop-blur: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-brightness: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-contrast: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-grayscale: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-hue-rotate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-invert: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-opacity: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-saturate: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-sepia: var(--tw-empty, /*!*/ /*!*/);
+  --tw-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness)
+    var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale)
+    var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert)
+    var(--tw-backdrop-opacity) var(--tw-backdrop-saturate)
+    var(--tw-backdrop-sepia);
+  border-color: rgba(92, 92, 92, var(--tw-border-opacity));
+  height: 14rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  width: 14rem;
+  transform: translate(-50%, -75%);
+  z-index: 3;
+}

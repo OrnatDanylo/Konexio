@@ -7,70 +7,99 @@
   color: #fff;
 }
 
-.login-container {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
 }
-
-.login-form h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.input-group {
+.login-form-heading {
+  font-style: italic;
+  font-size: 35px;
+  text-shadow: 0 2px 2px #000;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
-.input-group input {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+.login-form-username-input-decorator {
+  opacity: 0.5;
 }
 
-.login-button {
-  width: 100%;
-  background-color: #f0ad4e;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
+.login-form-username-input,
+.login-form-password-input,
+.login-form-login-button {
+  margin-bottom: 1rem;
+}
+
+.login-form-login-button {
+  box-shadow: 0 1px 2px #000;
+  border-color: #000;
+  border-width: 2px;
+  border-style: solid;
   cursor: pointer;
-}
-
-.login-button:hover {
-  background-color: #ec971f;
-}
-
-.form-footer {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.link-button {
-  background: none;
-  color: blue;
-  border: none;
-  cursor: pointer;
-  text-decoration: underline;
-}
-
-.social-logins {
-  display: flex;
+  align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.375rem;
+  border-radius: 12px;
+  color: #000;
+  background-color: #ffd744;
+  font-weight: 700;
+  line-height: 1.25;
+  text-align: center;
+  transition-duration: 0.3s;
 }
 
-.social-logins span {
-  margin: 0 5px;
+.login-form-login-button:hover {
+  background-color: #fc1;
+}
+
+.login-form-button-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: inherit;
+  font-family: open sans, sans-serif;
+  font-weight: 200;
+  line-height: 1.2;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.login-form-reset-button,
+.login-form-register-button {
+  transition-duration: 0.3s;
+  box-shadow: 0 1px 2px #000;
+  border-color: #ffd744;
+  border-width: 2px;
+  border-style: solid;
   cursor: pointer;
-  /* Replace with actual icons and proper styles */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: #ffd744;
+  background-color: transparent;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+  width: 47%;
+  height: 40px;
+}
+
+.login-form-reset-button:hover,
+.login-form-register-button:hover {
+  color: #fc1;
+  border-color: #fc1;
+}
+
+.login-form-info {
+  font-size: 80%;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }

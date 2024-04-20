@@ -1,0 +1,72 @@
+.about-us-content-grid-about-us-container {
+  display: grid;
+  width: auto;
+  max-width: 1921px;
+  grid-auto-rows: minmax(0, 1fr);
+  gap: 4rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  width: 66.666667%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.about-us-content-grid-about-us-block {
+  display: flex;
+  align-self: auto;
+}
+
+.about-us-content-grid-about-us-block-line {
+  height: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 215, 68, var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+}
+
+.about-us-content-grid-about-us-block-content-container {
+  border-width: 2px;
+  border-left-width: 0;
+  border-color: rgba(28, 28, 28, 1);
+  background-color: rgba(23, 23, 23, 1);
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  display: flex;
+  text-align: left;
+}
+
+.about-us-content-grid-about-us-block-content-svg {
+  display: inline-block;
+  height: 1em;
+  vertical-align: -0.125em;
+  font-size: 4em;
+  margin: 1rem;
+  margin-top: 2rem;
+  color: rgba(168, 168, 168, 1);
+  overflow: visible;
+}
+
+.about-us-content-grid-about-us-block-content-text-container {
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 0.75rem;
+}
+
+.about-us-content-grid-about-us-block-content-text-header {
+  margin: 0;
+  font-weight: inherit;
+  margin-bottom: 1rem;
+  font-size: 1.625rem;
+  letter-spacing: 0.02rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.about-us-content-grid-about-us-block-content-text {
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: rgba(168, 168, 168, 1);
+}
